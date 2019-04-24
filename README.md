@@ -13,6 +13,7 @@ Create a file in this repository named `homework.js` to save your solutions.
   <br>
     <code > summationEven(5) // should return 6 because 2+4=6</code>
   </li>
+    
   <li>Create a function to get the average of a group of numbers 
   <br>
     <code> avg([8, 2, 2, 4]) // should return 4</code>
@@ -45,7 +46,7 @@ Create a file in this repository named `homework.js` to save your solutions.
 
 ## Extra Practice
 
-Create word guessing game where the user gets infinite tries to guess the word (like Hangman without the hangman, or like Wheel of Fortune without the wheel and fortune).
+10.  Create word guessing game where the user gets infinite tries to guess the word (like Hangman without the hangman, or like Wheel of Fortune without the wheel and fortune).
 
 - Create two global arrays: one to hold the letters of the word (e.g. `['F', 'O', 'X']`), and one to hold the current guessed letters (e.g. it would start with `['_', '_', '_]'` and end with `['F', 'O', 'X']`)`.
 - Write a function called guessLetter that will:
