@@ -2,8 +2,10 @@
 
 # JavaScript Array HW
 
+Create a file in this repository named `homework.js` to save your solutions.
+
 <ol>
-  <li>Create a program that will get the sum of the numbers between 1 and n and return the answer
+  <li>Create a function that will get the sum of the numbers between 1 and n and return the answer
   <br>
     <code>summation(5) // should return 15 because 1+2+3+4+5=15</code>
   </li>
@@ -11,11 +13,11 @@
   <br>
     <code > summationEven(5) // should return 6 because 2+4=6</code>
   </li>
-  <li>Create a program to get the average of a group of numbers 
+  <li>Create a function to get the average of a group of numbers 
   <br>
     <code> avg([8, 2, 2, 4]) // should return 4</code>
   </li>
-  <li>Create a program to reverse the letters in a word
+  <li>Create a function to reverse the letters in a word
   <br>
     <code > reverse("caterpillar") // should return "rallipretac"</code>
   </li>
