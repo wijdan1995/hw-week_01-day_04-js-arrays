@@ -58,8 +58,8 @@ Create word guessing game where the user gets infinite tries to guess the word (
 
 ```js
 // start of the game
-var wordLetters     = ['G', 'O', 'A', 'T'];
-var guessedLetters  = ['_', '_', '_', '_'];
+const wordLetters     = ['G', 'O', 'A', 'T'];
+const guessedLetters  = ['_', '_', '_', '_'];
 
 // playing the game
 guessLetter('G'); // "Correct, G _ _ _"
