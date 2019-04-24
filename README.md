@@ -30,9 +30,13 @@ Create a file in this repository named `homework.js` to save your solutions.
   <br>
     <code> countUpAndDown(3) // should return "1 2 3 2 1"</code>
   </li>
+  <li>Write a function that will tell you all of the words in an array that contain the letter `a`
+  <br>
+    <code > wordsWithA(['cat', 'rabbit', 'dog', 'frog']) // should return ['cat', 'rabbit']</code>
+  </li>
   <li>Write a function that will tell you all of the words in an array that contain a specified letter
   <br>
-    <code > wordsWithLetter("a", ['cat', 'rabbit', 'dog', 'frog']) // should return ['cat', 'rabbit']</code>
+    <code > wordsWithLetter("g", ['cat', 'rabbit', 'dog', 'frog']) // should return ['dog', 'frog']</code>
   </li>
   <li>Function that returns the longest word in sentence
   <br>
@@ -46,7 +50,7 @@ Create a file in this repository named `homework.js` to save your solutions.
 
 ## Extra Practice
 
-10.  Create word guessing game where the user gets infinite tries to guess the word (like Hangman without the hangman, or like Wheel of Fortune without the wheel and fortune).
+Create word guessing game where the user gets infinite tries to guess the word (like Hangman without the hangman, or like Wheel of Fortune without the wheel and fortune).
 
 - Create two global arrays: one to hold the letters of the word (e.g. `['F', 'O', 'X']`), and one to hold the current guessed letters (e.g. it would start with `['_', '_', '_]'` and end with `['F', 'O', 'X']`)`.
 - Write a function called guessLetter that will:
